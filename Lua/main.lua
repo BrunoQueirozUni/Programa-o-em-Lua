@@ -3,6 +3,8 @@ if os.getenv("OS") == "Windows_NT" then
    os.execute("chcp 65001 > nul")
 end
 
+-- | Comentários em Lua | -- Menu para ocasiões futuras
+
 -- Funções para testar a linguagem Lua.
 print("╔═════════════════════════════════╗")
 print("║             M E N U             ║");
@@ -25,15 +27,12 @@ print("╚═══════════════════════�
 
 -- = io.read() -> string / comando para o usuário digitar no terminal.
 -- = tonumber() -> number / converter a string para número.
-
-function obterMensagem()
-   entrada = tonumber(io.read());
-   return entrada;
-end
-
 entrada = tonumber(io.read());
+
 print("Digite a opção desejada: " .. entrada);
 print("=================================\n");
+
+
 -- Função menu
 function menu(entrada)
 
