@@ -1,4 +1,3 @@
-
 local valor = 2
 
 -- Switch case usando if-elseif-else

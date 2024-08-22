@@ -1,4 +1,3 @@
-
 -- Importe a biblioteca de threads
 local threads = require("threads")
 

@@ -1,4 +1,3 @@
-
 -- Exemplo 1: Comparação de igualdade
 local a = 10
 local b = 5
